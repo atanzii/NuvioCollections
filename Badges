@@ -1,13 +1,130 @@
 {
   "filters": [
     {
+      "borderColor": "#FFE50914",
+      "groupId": "gs",
+      "id": "s-nflx",
+      "imageURL": "https://files.catbox.moe/gzzowp.png",
+      "isEnabled": true,
+      "name": "NETFLIX",
+      "pattern": "(?i)(?:⁠⁡|\\b(?:nflx|nf|netflix)\\b)",
+      "tagColor": "#E50914",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF00A8E1",
+      "groupId": "gs",
+      "id": "s-amzn",
+      "imageURL": "https://files.catbox.moe/jvuuxz.png",
+      "isEnabled": true,
+      "name": "PRIME",
+      "pattern": "(?i)(?:⁠⁢|\\b(?:amzn|amazon(?:\\s*prime)?|prime\\s*video)\\b)",
+      "tagColor": "#00A8E1",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF000000",
+      "groupId": "gs",
+      "id": "s-atvp",
+      "imageURL": "https://files.catbox.moe/8mvbkd.png",
+      "isEnabled": true,
+      "name": "APPLE TV+",
+      "pattern": "(?i)(?:⁠⁣|\\b(?:atvp|appletv|apple\\s*tv)\\b)",
+      "tagColor": "#000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF00C7DC",
+      "groupId": "gs",
+      "id": "s-dsnp",
+      "imageURL": "https://files.catbox.moe/xufikr.png",
+      "isEnabled": true,
+      "name": "DISNEY+",
+      "pattern": "(?i)(?:⁠⁤|\\b(?:dsnp|dsny|disney|disney\\+)\\b)",
+      "tagColor": "#00C7DC",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FFB100FF",
+      "groupId": "gs",
+      "id": "s-hmax",
+      "imageURL": "https://files.catbox.moe/60vwdv.png",
+      "isEnabled": true,
+      "name": "MAX",
+      "pattern": "(?i)(?:⁠⁥|\\b(?:hmax|hbomax|hbo\\s*max)\\b)",
+      "tagColor": "#B100FF",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF1CE783",
+      "groupId": "gs",
+      "id": "s-hulu",
+      "imageURL": "https://files.catbox.moe/62bb6u.png",
+      "isEnabled": true,
+      "name": "HULU",
+      "pattern": "(?i)(?:⁠⁦|\\bhulu\\b)",
+      "tagColor": "#1CE783",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FFFFB81C",
+      "groupId": "gs",
+      "id": "s-pcok",
+      "imageURL": "https://files.catbox.moe/qoxb5p.png",
+      "isEnabled": true,
+      "name": "PEACOCK",
+      "pattern": "(?i)(?:⁠⁧|\\b(?:pcok|peacock)\\b)",
+      "tagColor": "#FFB81C",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF0050D0",
+      "groupId": "gs",
+      "id": "s-pamp",
+      "imageURL": "https://files.catbox.moe/92xcdu.png",
+      "isEnabled": true,
+      "name": "PARAMOUNT+",
+      "pattern": "(?i)(?:⁠⁨|\\b(?:pmtp|pamp|paramount\\+)\\b|\\bparamount\\b)",
+      "tagColor": "#0050D0",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FFF47521",
+      "groupId": "gs",
+      "id": "s-croll",
+      "imageURL": "https://files.catbox.moe/2wo44w.png",
+      "isEnabled": true,
+      "name": "CRUNCHYROLL",
+      "pattern": "(?i)(?:⁠⁩|\\b(?:crunchyroll|crunchy|croll)\\b)",
+      "tagColor": "#F47521",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
       "borderColor": "#FF1565C0",
-      "groupId": "q-r",
+      "groupId": "quality-group",
       "id": "q-r",
       "imageURL": "https://files.catbox.moe/yie3a3.png",
       "isEnabled": true,
       "name": "Remux",
-      "pattern": "(?i)(?<![A-Za-z0-9])remux(?![A-Za-z0-9])",
+      "pattern": "(?i)(?:\\b|(?<=hd))remux\\b",
       "tagColor": "#5C6B76",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -15,12 +132,12 @@
     },
     {
       "borderColor": "#FF27C04F",
-      "groupId": "q-b",
+      "groupId": "quality-group",
       "id": "q-b",
       "imageURL": "https://files.catbox.moe/0pw37g.png",
       "isEnabled": true,
       "name": "BluRay",
-      "pattern": "(?i)(?<![A-Za-z0-9])(?:bluray|blu[-_.]ray)(?![A-Za-z0-9])",
+      "pattern": "(?i)\\b(?:bluray|blu-ray)\\b",
       "tagColor": "#5C6B76",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -28,12 +145,12 @@
     },
     {
       "borderColor": "#FFFF9728",
-      "groupId": "q-w",
+      "groupId": "quality-group",
       "id": "q-w",
       "imageURL": "https://files.catbox.moe/nvccpa.png",
       "isEnabled": true,
       "name": "WebDL",
-      "pattern": "(?i)(?<![A-Za-z0-9])(?:web[-_.]?dl|webdl)(?![A-Za-z0-9])",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
       "tagColor": "#5C6B76",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -41,12 +158,12 @@
     },
     {
       "borderColor": "#FFE55353",
-      "groupId": "q-wr",
+      "groupId": "quality-group",
       "id": "q-wr",
       "imageURL": "https://files.catbox.moe/2ogfyx.png",
       "isEnabled": true,
       "name": "WebRip",
-      "pattern": "(?i)(?<![A-Za-z0-9])web[-_.]?rip(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bweb[-_. ]?rip\\b",
       "tagColor": "#5C6B76",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -54,24 +171,24 @@
     },
     {
       "borderColor": "#2EFFFFFF",
-      "groupId": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
+      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
       "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_SEADEX.png",
       "isEnabled": true,
       "name": "SEADEX Release",
-      "pattern": "(?i)(?:(?<![A-Za-z0-9])seadex(?![A-Za-z0-9])|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
+      "pattern": "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
-      "groupId": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
+      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
       "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_imax.png",
       "isEnabled": true,
       "name": "IMAX",
-      "pattern": "(?i)(?<![A-Za-z0-9])imax(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bimax\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -79,12 +196,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_DV.png",
       "isEnabled": true,
       "name": "DV",
-      "pattern": "(?i)(?<![A-Za-z0-9])(?:dv|dovi|dolby[ ._-]?vision)(?![A-Za-z0-9])",
+      "pattern": "(?i)\\b(?:dv|dovi|dolby[ ._-]?vision)\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -92,12 +209,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "1f393f30-df1f-547e-97a7-b6b81404d8b5",
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "1f393f30-df1f-547e-97a7-b6b81404d8b5",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10Plus.png",
       "isEnabled": true,
       "name": "HDR10+",
-      "pattern": "(?i)(?<![A-Za-z0-9])hdr\\s*10\\s*(?:\\+|plus|p)(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bhdr\\s*10\\s*(?:\\+|plus|p)(?:\\b|(?=[\\s._\\-]|$))",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -105,12 +222,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "f779c5b5-d414-5e94-9012-1636a724f9a9",
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10Plus.png",
       "isEnabled": false,
       "name": "HDR10+ (Without DV)",
-      "pattern": "(?i)(?<![A-Za-z0-9])hdr\\s*10\\s*(?:\\+|plus|p)(?![A-Za-z0-9])",
+      "pattern": "(?i)(?:^|[^a-z0-9])hdr\\s*10\\s*(?:\\+|plus|p)(?=[^a-z0-9]|$)",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -118,12 +235,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "c2d8eca4-de97-53e4-b151-418c8b88607d",
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "c2d8eca4-de97-53e4-b151-418c8b88607d",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10.png",
       "isEnabled": true,
       "name": "HDR10",
-      "pattern": "(?i)(?<![A-Za-z0-9])hdr\\s*10(?!\\s*(?:\\+|plus|p))(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bhdr\\s*10(?!\\s*(?:\\+|plus|p))(?:\\b|(?=[\\s._\\-]|$))",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -131,12 +248,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10.png",
       "isEnabled": false,
       "name": "HDR10 (Without DV)",
-      "pattern": "(?i)(?<![A-Za-z0-9])hdr\\s*10(?!\\s*(?:\\+|plus|p))(?![A-Za-z0-9])",
+      "pattern": "(?i)^(?=.*\\b(?:dv|dovi|dolby[ ._-]?vision)\\b)(?=.*\\bhdr(?:\\s*10)?\\b)(?!.*\\bhdr\\s*10\\s*(?:\\+|plus|p)\\b).*",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -144,12 +261,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "81fcb635-5677-5e0b-85c9-77fd994d0091",
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "81fcb635-5677-5e0b-85c9-77fd994d0091",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR.png",
       "isEnabled": true,
       "name": "HDR",
-      "pattern": "(?i)(?<![A-Za-z0-9])hdr(?!\\s*10)(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bhdr(?!\\s*10)(?:\\b|(?=[\\s._\\-]|$))",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -157,12 +274,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "9d1f158a-bb45-5758-b8da-b45c2759f803",
+      "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "9d1f158a-bb45-5758-b8da-b45c2759f803",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_sdr.png",
       "isEnabled": false,
       "name": "SDR",
-      "pattern": "(?i)^(?=.*(?:\\.(?:mkv|mp4|avi|mov|m4v|ts)(?![A-Za-z0-9])|(?<![A-Za-z0-9])(?:x264|x265|xvid|h[ ._-]?264|h[ ._-]?265|hevc|avc|web[-_.]?dl|webrip|blu[-_.]?ray|bd[-_.]?remux|bdremux|remux|bdrip|bdmux|dvd|dvdrip|hdtv|uhd|4k)(?![A-Za-z0-9])))(?!.*(?<![A-Za-z0-9])(?:dovi|dv|dolby[ ._-]?vision|hdr10(?:\\+|plus|p)?|hdr[ ._-]?10[ ._-]?(?:\\+|plus|p)?|hdr|hlg)(?![A-Za-z0-9])).*$",
+      "pattern": "(?i)^(?=.*(?:\\.(?:mkv|mp4|avi|mov|m4v|ts)\\b|\\b(?:x264|x265|xvid|h[ ._-]?264|h[ ._-]?265|hevc|avc|web[-_. ]?dl|webrip|blu[-_. ]?ray|bd[-_. ]?remux|bdremux|remux|bdrip|bdmux|dvd|dvdrip|hdtv|uhd|4k)\\b))(?!.*(?:^|[^A-Za-z0-9])(?:dovi|dv|dolby[ ._-]?vision|hdr10(?:\\+|plus|p)?|hdr[ ._-]?10[ ._-]?(?:\\+|plus|p)?|hdr|hlg)(?=$|[^A-Za-z0-9])).*$",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -170,12 +287,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_Atmos.png",
       "isEnabled": true,
       "name": "ATMOS",
-      "pattern": "(?i)(?<![A-Za-z0-9])atmos(?![A-Za-z0-9])",
+      "pattern": "(?i)\\batmos\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -184,24 +301,24 @@
     },
     {
       "borderColor": "#2EFFFFFF",
-      "groupId": "6f4637af-d45c-5ef9-9a35-7adc61ab5a0e",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "6f4637af-d45c-5ef9-9a35-7adc61ab5a0e",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_TrueHD.png",
       "isEnabled": true,
       "name": "TRUEHD",
-      "pattern": "(?i)(?<![A-Za-z0-9])true[ ._-]?hd(?![A-Za-z0-9])",
+      "pattern": "(?i)\\btrue[ ._-]?hd\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
     {
-      "groupId": "4309bea6-d424-51f4-8099-0deabacfc306",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "4309bea6-d424-51f4-8099-0deabacfc306",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dtsx.png",
       "isEnabled": true,
       "name": "DTS-X",
-      "pattern": "(?i)(?<![A-Za-z0-9])dts[-_. ]?x(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bdts[-_.: ]?x\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -209,12 +326,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "85d60c3f-6e5c-5e06-996f-8232bb686109",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "85d60c3f-6e5c-5e06-996f-8232bb686109",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dtsHDMA.png",
       "isEnabled": true,
       "name": "DTS-HD MA",
-      "pattern": "(?i)(?<![A-Za-z0-9])dts[-_. ]?hd[-_. ]?ma(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bdts[-_. ]?hd[-_. ]?ma\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -222,12 +339,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "a47dc0b9-72ed-5bf9-bcba-5e92b602001c",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "a47dc0b9-72ed-5bf9-bcba-5e92b602001c",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dtsHD.png",
       "isEnabled": true,
       "name": "DTS-HD",
-      "pattern": "(?i)(?<![A-Za-z0-9])dts[-_. ]?hd(?![-_. ]?ma)(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bdts[-_. ]?hd\\b(?![-_. ]?ma)",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -235,12 +352,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "138d9480-c83e-5735-aa9b-a0190464fbd5",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "138d9480-c83e-5735-aa9b-a0190464fbd5",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_DDPLUS.png",
       "isEnabled": true,
       "name": "DOLBY DIGITAL +",
-      "pattern": "(?i)(?<![A-Za-z0-9])(?:dd\\+|ddp|e[-_. ]?ac[-_. ]?3)(?![A-Za-z])",
+      "pattern": "(?i)(?:dd\\+|ddp|e[-_. ]?ac[-_. ]?3)\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -248,12 +365,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "da8db73e-5b47-560e-a543-abf02335db5c",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "da8db73e-5b47-560e-a543-abf02335db5c",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dts.png",
       "isEnabled": true,
       "name": "DTS",
-      "pattern": "(?i)(?<![A-Za-z0-9])dts(?![-_. ]?(?:hd|x(?![A-Za-z0-9])|es(?![A-Za-z0-9])|hr(?![A-Za-z0-9])|hi(?![A-Za-z0-9])))(?![A-Za-z0-9])",
+      "pattern": "(?i)\\bdts\\b(?![-_. ]?(?:hd|x\\b|es\\b|hr\\b|hi\\b))",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -261,12 +378,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "3476e4a0-0f7d-57f1-bd45-13bfa2db5e42",
+      "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "3476e4a0-0f7d-57f1-bd45-13bfa2db5e42",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_DD.png",
       "isEnabled": true,
       "name": "DOLBY DIGITAL",
-      "pattern": "(?i)(?:(?<![Ee])(?<![A-Za-z0-9])ac-?3(?![A-Za-z0-9])|(?<![A-Za-z0-9])dd(?![+pP\\w]))",
+      "pattern": "(?i)(?:(?<![e\\-])\\bac-?3\\b|\\bdd(?![+p\\w])\\b)",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -274,12 +391,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "343880da-882c-5dd8-8686-aee04111d735",
+      "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
       "id": "343880da-882c-5dd8-8686-aee04111d735",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_71.png",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/7dot1.png",
       "isEnabled": true,
       "name": "7.1 CH",
-      "pattern": "(?i)(?<![0-9])[78][ ._][01](?![0-9])",
+      "pattern": "(?i)[^0-9][78][ .][01]\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -287,12 +404,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "59853061-bc8f-5545-b392-644c22267ef8",
+      "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
       "id": "59853061-bc8f-5545-b392-644c22267ef8",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_61.png",
       "isEnabled": true,
       "name": "6.1 CH",
-      "pattern": "(?i)(?<![0-9])6[ ._][01](?![0-9])",
+      "pattern": "(?i)[^0-9]6[ .][01]\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -300,12 +417,12 @@
       "borderColor": "#2EFFFFFF"
     },
     {
-      "groupId": "e3ab9d1e-9064-53ca-b405-354e40f2455a",
+      "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
       "id": "e3ab9d1e-9064-53ca-b405-354e40f2455a",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_51.png",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/5dot1.png",
       "isEnabled": true,
       "name": "5.1 CH",
-      "pattern": "(?i)(?<![0-9])5[ ._][01](?![0-9])",
+      "pattern": "(?i)[^0-9]5[ .][01]\\b",
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -315,148 +432,41 @@
   ],
   "groups": [
     {
-      "id": "q-r",
-      "name": "Remux",
-      "color": "#5C6B76",
+      "id": "gs",
+      "name": "Streamings",
+      "color": "#546E7A",
+      "borderColor": "#FF546E7A",
       "isExpanded": true
     },
     {
-      "id": "q-b",
-      "name": "BluRay",
       "color": "#5C6B76",
-      "isExpanded": true
+      "id": "quality-group",
+      "isExpanded": true,
+      "name": "Quality"
     },
     {
-      "id": "q-w",
-      "name": "WebDL",
-      "color": "#5C6B76",
-      "isExpanded": true
+      "color": "#FF6B6B",
+      "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "isExpanded": true,
+      "name": "Visual Tags"
     },
     {
-      "id": "q-wr",
-      "name": "WebRip",
-      "color": "#5C6B76",
-      "isExpanded": true
+      "color": "#45B7D1",
+      "id": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
+      "isExpanded": true,
+      "name": "Audio"
     },
     {
-      "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
-      "name": "SEADEX Release",
+      "color": "#FFD700",
+      "id": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
+      "isExpanded": true,
+      "name": "Audio Channels"
+    },
+    {
       "color": "#C792EA",
-      "isExpanded": true
-    },
-    {
-      "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
-      "name": "IMAX",
-      "color": "#C792EA",
-      "isExpanded": true
-    },
-    {
-      "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
-      "name": "DV",
-      "color": "#FF6B6B",
-      "isExpanded": true
-    },
-    {
-      "id": "1f393f30-df1f-547e-97a7-b6b81404d8b5",
-      "name": "HDR10+",
-      "color": "#FF6B6B",
-      "isExpanded": true
-    },
-    {
-      "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
-      "name": "HDR10+ (Without DV)",
-      "color": "#FF6B6B",
-      "isExpanded": true
-    },
-    {
-      "id": "c2d8eca4-de97-53e4-b151-418c8b88607d",
-      "name": "HDR10",
-      "color": "#FF6B6B",
-      "isExpanded": true
-    },
-    {
-      "id": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
-      "name": "HDR10 (Without DV)",
-      "color": "#FF6B6B",
-      "isExpanded": true
-    },
-    {
-      "id": "81fcb635-5677-5e0b-85c9-77fd994d0091",
-      "name": "HDR",
-      "color": "#FF6B6B",
-      "isExpanded": true
-    },
-    {
-      "id": "9d1f158a-bb45-5758-b8da-b45c2759f803",
-      "name": "SDR",
-      "color": "#FF6B6B",
-      "isExpanded": true
-    },
-    {
-      "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
-      "name": "ATMOS",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "6f4637af-d45c-5ef9-9a35-7adc61ab5a0e",
-      "name": "TRUEHD",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "4309bea6-d424-51f4-8099-0deabacfc306",
-      "name": "DTS-X",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "85d60c3f-6e5c-5e06-996f-8232bb686109",
-      "name": "DTS-HD MA",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "a47dc0b9-72ed-5bf9-bcba-5e92b602001c",
-      "name": "DTS-HD",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "138d9480-c83e-5735-aa9b-a0190464fbd5",
-      "name": "DOLBY DIGITAL +",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "da8db73e-5b47-560e-a543-abf02335db5c",
-      "name": "DTS",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "3476e4a0-0f7d-57f1-bd45-13bfa2db5e42",
-      "name": "DOLBY DIGITAL",
-      "color": "#45B7D1",
-      "isExpanded": true
-    },
-    {
-      "id": "343880da-882c-5dd8-8686-aee04111d735",
-      "name": "7.1 CH",
-      "color": "#FFD700",
-      "isExpanded": true
-    },
-    {
-      "id": "59853061-bc8f-5545-b392-644c22267ef8",
-      "name": "6.1 CH",
-      "color": "#FFD700",
-      "isExpanded": true
-    },
-    {
-      "id": "e3ab9d1e-9064-53ca-b405-354e40f2455a",
-      "name": "5.1 CH",
-      "color": "#FFD700",
-      "isExpanded": true
+      "id": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
+      "isExpanded": true,
+      "name": "Special Tags"
     }
   ]
 }
