@@ -1,6 +1,58 @@
 {
   "filters": [
     {
+      "borderColor": "#FF1565C0",
+      "groupId": "quality-group",
+      "id": "q-r",
+      "imageURL": "https://files.catbox.moe/yie3a3.png",
+      "isEnabled": true,
+      "name": "Remux",
+      "pattern": "(?i)(?:\\b|(?<=hd))remux\\b",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF5C6B76",
+      "groupId": "quality-group",
+      "id": "q-b",
+      "imageURL": "https://files.catbox.moe/0pw37g.png",
+      "isEnabled": true,
+      "name": "BluRay",
+      "pattern": "(?i)\\b(?:bluray|blu-ray)\\b(?!.*remux)",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FFFF9728",
+      "groupId": "quality-group",
+      "id": "q-w",
+      "imageURL": "https://files.catbox.moe/nvccpa.png",
+      "isEnabled": true,
+      "name": "WebDL",
+      "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FFE55353",
+      "groupId": "quality-group",
+      "id": "q-wr",
+      "imageURL": "https://files.catbox.moe/2ogfyx.png",
+      "isEnabled": true,
+      "name": "WebRip",
+      "pattern": "(?i)\\bweb[-_. ]?rip\\b",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
       "borderColor": "#2EFFFFFF",
       "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
       "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
@@ -262,6 +314,12 @@
     }
   ],
   "groups": [
+    {
+      "color": "#5C6B76",
+      "id": "quality-group",
+      "isExpanded": true,
+      "name": "Quality"
+    },
     {
       "color": "#FF6B6B",
       "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
