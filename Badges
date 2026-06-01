@@ -8,8 +8,8 @@
       "isEnabled": true,
       "name": "NETFLIX",
       "pattern": "(?i)(?:⁠⁡|\\b(?:nflx|nf|netflix)\\b)",
-      "tagColor": "#E50914",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -21,8 +21,8 @@
       "isEnabled": true,
       "name": "PRIME",
       "pattern": "(?i)(?:⁠⁢|\\b(?:amzn|amazon(?:\\s*prime)?|prime\\s*video)\\b)",
-      "tagColor": "#00A8E1",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -34,8 +34,8 @@
       "isEnabled": true,
       "name": "APPLE TV+",
       "pattern": "(?i)(?:⁠⁣|\\b(?:atvp|appletv|apple\\s*tv)\\b)",
-      "tagColor": "#000000",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -47,8 +47,8 @@
       "isEnabled": true,
       "name": "DISNEY+",
       "pattern": "(?i)(?:⁠⁤|\\b(?:dsnp|dsny|disney|disney\\+)\\b)",
-      "tagColor": "#00C7DC",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -60,8 +60,8 @@
       "isEnabled": true,
       "name": "MAX",
       "pattern": "(?i)(?:⁠⁥|\\b(?:hmax|hbomax|hbo\\s*max)\\b)",
-      "tagColor": "#B100FF",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -73,8 +73,8 @@
       "isEnabled": true,
       "name": "HULU",
       "pattern": "(?i)(?:⁠⁦|\\bhulu\\b)",
-      "tagColor": "#1CE783",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -86,8 +86,8 @@
       "isEnabled": true,
       "name": "PEACOCK",
       "pattern": "(?i)(?:⁠⁧|\\b(?:pcok|peacock)\\b)",
-      "tagColor": "#FFB81C",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -99,8 +99,8 @@
       "isEnabled": true,
       "name": "PARAMOUNT+",
       "pattern": "(?i)(?:⁠⁨|\\b(?:pmtp|pamp|paramount\\+)\\b|\\bparamount\\b)",
-      "tagColor": "#0050D0",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -112,8 +112,8 @@
       "isEnabled": true,
       "name": "CRUNCHYROLL",
       "pattern": "(?i)(?:⁠⁩|\\b(?:crunchyroll|crunchy|croll)\\b)",
-      "tagColor": "#F47521",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
     },
@@ -405,19 +405,6 @@
     },
     {
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
-      "id": "59853061-bc8f-5545-b392-644c22267ef8",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_61.png",
-      "isEnabled": true,
-      "name": "6.1 CH",
-      "pattern": "(?i)[^0-9]6[ .][01]\\b",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
-    },
-    {
-      "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
       "id": "e3ab9d1e-9064-53ca-b405-354e40f2455a",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/5dot1.png",
       "isEnabled": true,
@@ -432,11 +419,10 @@
   ],
   "groups": [
     {
+      "color": "#00000000",
       "id": "gs",
-      "name": "Streamings",
-      "color": "#546E7A",
-      "borderColor": "#FF546E7A",
-      "isExpanded": true
+      "isExpanded": true,
+      "name": "Streamings"
     },
     {
       "color": "#5C6B76",
