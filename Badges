@@ -27,7 +27,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF000000",
+      "borderColor": "#7D7D7D",
       "groupId": "gs",
       "id": "s-atvp",
       "imageURL": "https://files.catbox.moe/8mvbkd.png",
@@ -150,7 +150,7 @@
       "imageURL": "https://files.catbox.moe/nvccpa.png",
       "isEnabled": true,
       "name": "WebDL",
-      "pattern": "(?i)^(?!.*(?:(?:\\b|(?<=hd))remux\\b|\\b(?:bluray|blu-ray)\\b)).*\\b(?:web[-_. ]?dl|webdl)\\b",
+      "pattern": "(?i)^(?!.*(?:(?:\\b|(?<=hd))remux\\b|\\b(?:bluray|blu-ray)\\b|\\bweb[-_. ]?rip\\b)).*(?:\\b(?:web[-_. ]?dl|webdl)\\b|\\bweb[-_.](?:h\\.?26[45]|x26[45]|avc|hevc)\\b)",
       "tagColor": "#5C6B76",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
@@ -183,6 +183,7 @@
       "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
       "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_imax.png",
@@ -192,10 +193,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "9be3e5a6-b81c-5659-b771-e2b111c2d496",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_DV.png",
@@ -205,10 +206,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "1f393f30-df1f-547e-97a7-b6b81404d8b5",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10Plus.png",
@@ -218,10 +219,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "f779c5b5-d414-5e94-9012-1636a724f9a9",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10Plus.png",
@@ -231,10 +232,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "c2d8eca4-de97-53e4-b151-418c8b88607d",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10.png",
@@ -244,10 +245,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "40c288b5-c99c-52fa-82a0-a17fa55f2f37",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR10.png",
@@ -257,10 +258,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "81fcb635-5677-5e0b-85c9-77fd994d0091",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_HDR.png",
@@ -270,10 +271,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
       "id": "9d1f158a-bb45-5758-b8da-b45c2759f803",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_sdr.png",
@@ -283,10 +284,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "1e376aee-96c7-53cb-87e6-ea82d34afca0",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_Atmos.png",
@@ -296,8 +297,7 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
       "borderColor": "#2EFFFFFF",
@@ -313,6 +313,7 @@
       "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "4309bea6-d424-51f4-8099-0deabacfc306",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dtsx.png",
@@ -322,10 +323,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "85d60c3f-6e5c-5e06-996f-8232bb686109",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dtsHDMA.png",
@@ -335,10 +336,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "a47dc0b9-72ed-5bf9-bcba-5e92b602001c",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dtsHD.png",
@@ -348,10 +349,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "138d9480-c83e-5735-aa9b-a0190464fbd5",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_DDPLUS.png",
@@ -361,10 +362,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "da8db73e-5b47-560e-a543-abf02335db5c",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_dts.png",
@@ -374,10 +375,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "id": "3476e4a0-0f7d-57f1-bd45-13bfa2db5e42",
       "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_DD.png",
@@ -387,10 +388,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
       "id": "343880da-882c-5dd8-8686-aee04111d735",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/7dot1.png",
@@ -400,10 +401,10 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     },
     {
+      "borderColor": "#2EFFFFFF",
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c",
       "id": "e3ab9d1e-9064-53ca-b405-354e40f2455a",
       "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/5dot1.png",
@@ -413,8 +414,7 @@
       "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
-      "type": "filter",
-      "borderColor": "#2EFFFFFF"
+      "type": "filter"
     }
   ],
   "groups": [
