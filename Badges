@@ -441,45 +441,6 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
-    },
-    {
-      "borderColor": "#2EFFFFFF",
-      "groupId": "language-group",
-      "id": "l-it",
-      "imageURL": "https://files.catbox.moe/2k1nj1.png",
-      "isEnabled": true,
-      "name": "🇮🇹",
-      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(italian|ita)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#2EFFFFFF",
-      "groupId": "language-group",
-      "id": "l-en",
-      "imageURL": "https://files.catbox.moe/rc1k68.png",
-      "isEnabled": true,
-      "name": "🇬🇧",
-      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(english|eng)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#2EFFFFFF",
-      "groupId": "language-group",
-      "id": "l-mu",
-      "imageURL": "https://files.catbox.moe/8scrg7.png",
-      "isEnabled": true,
-      "name": "🌐",
-      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(multi)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)|(?<![^\\s\\[(_\\-.,])(dual[ .\\-_]?(?:audio|lang(?:uage)?|flac|ac3|aac2?))(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
     }
   ],
   "groups": [
@@ -524,12 +485,6 @@
       "id": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
       "isExpanded": true,
       "name": "Special Tags"
-    },
-    {
-      "color": "#00000000",
-      "id": "language-group",
-      "isExpanded": true,
-      "name": "Languages"
     }
   ]
 }
