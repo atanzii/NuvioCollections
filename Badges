@@ -1,6 +1,84 @@
 {
   "filters": [
     {
+      "borderColor": "#FF1565C0",
+      "groupId": "resolution-group",
+      "id": "r-4k",
+      "imageURL": "https://files.catbox.moe/uya7bl.png",
+      "isEnabled": true,
+      "name": "4K",
+      "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF27C04F",
+      "groupId": "resolution-group",
+      "id": "r-1080",
+      "imageURL": "https://files.catbox.moe/qzp5t3.png",
+      "isEnabled": true,
+      "name": "1080p",
+      "pattern": "(?i)\\b1080[pi]?\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF1565C0",
+      "groupId": "quality-group",
+      "id": "q-r",
+      "imageURL": "https://files.catbox.moe/yie3a3.png",
+      "isEnabled": true,
+      "name": "Remux",
+      "pattern": "(?i)(?:\\b(?:(?:bd|hd)[-_.]?)?remux\\b|\\bbd[-_.]?mux\\b)",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF27C04F",
+      "groupId": "quality-group",
+      "id": "q-b",
+      "imageURL": "https://files.catbox.moe/0pw37g.png",
+      "isEnabled": true,
+      "name": "BluRay",
+      "pattern": "(?i)^(?!.*(?:\\b(?:(?:bd|hd)[-_.]?)?remux\\b|\\bbd[-_.]?mux\\b)).*\\b(?:bluray|blu[-_.]?ray|bdrip|bd(?![-_.]?(?:remux|mux))(?=[^a-zA-Z0-9]|$))",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FFFF9728",
+      "groupId": "quality-group",
+      "id": "q-w",
+      "imageURL": "https://files.catbox.moe/nvccpa.png",
+      "isEnabled": true,
+      "name": "WebDL",
+      "pattern": "(?i)^(?!.*(?:\\b(?:(?:bd|hd)[-_.]?)?remux\\b|\\bbd[-_.]?mux\\b|\\b(?:bluray|blu[-_.]?ray)\\b|\\bweb[-_. ]?rip\\b)).*(?:\\b(?:web[-_. ]?dl|webdl)\\b|(?<![a-zA-Z0-9])web[-_. ](?:h\\.?26[45]|x26[45]|avc|hevc)(?![a-zA-Z0-9]))",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FFE55353",
+      "groupId": "quality-group",
+      "id": "q-wr",
+      "imageURL": "https://files.catbox.moe/2ogfyx.png",
+      "isEnabled": true,
+      "name": "WebRip",
+      "pattern": "(?i)^(?!.*(?:\\b(?:(?:bd|hd)[-_.]?)?remux\\b|\\bbd[-_.]?mux\\b|\\b(?:bluray|blu[-_.]?ray)\\b|\\b(?:web[-_. ]?dl|webdl)\\b)).*\\bweb[-_. ]?rip\\b",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
       "borderColor": "#FFE50914",
       "groupId": "gs",
       "id": "s-nflx",
@@ -113,110 +191,6 @@
       "name": "CRUNCHYROLL",
       "pattern": "(?i)(?:⁠⁩|\\b(?:crunchyroll|crunchy|croll)\\b)",
       "tagColor": "#00000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF1565C0",
-      "groupId": "resolution-group",
-      "id": "r-4k",
-      "imageURL": "https://files.catbox.moe/uya7bl.png",
-      "isEnabled": true,
-      "name": "4K",
-      "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
-      "tagColor": "#00000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF27C04F",
-      "groupId": "resolution-group",
-      "id": "r-1080",
-      "imageURL": "https://files.catbox.moe/qzp5t3.png",
-      "isEnabled": true,
-      "name": "1080p",
-      "pattern": "(?i)\\b1080[pi]?\\b",
-      "tagColor": "#00000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF1565C0",
-      "groupId": "quality-group",
-      "id": "q-r",
-      "imageURL": "https://files.catbox.moe/yie3a3.png",
-      "isEnabled": true,
-      "name": "Remux",
-      "pattern": "(?i)(?:\\b(?:(?:bd|hd)[-_.]?)?remux\\b|\\bbd[-_.]?mux\\b)",
-      "tagColor": "#5C6B76",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FF27C04F",
-      "groupId": "quality-group",
-      "id": "q-b",
-      "imageURL": "https://files.catbox.moe/0pw37g.png",
-      "isEnabled": true,
-      "name": "BluRay",
-      "pattern": "(?i)^(?!.*(?:\\b(?:(?:bd|hd)[-_.]?)?remux\\b|\\bbd[-_.]?mux\\b)).*\\b(?:bluray|blu[-_.]?ray|bdrip|bd(?![-_.]?(?:remux|mux))(?=[^a-zA-Z0-9]|$))",
-      "tagColor": "#5C6B76",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FFFF9728",
-      "groupId": "quality-group",
-      "id": "q-w",
-      "imageURL": "https://files.catbox.moe/nvccpa.png",
-      "isEnabled": true,
-      "name": "WebDL",
-      "pattern": "(?i)^(?!.*(?:\\b(?:(?:bd|hd)[-_.]?)?remux\\b|\\bbd[-_.]?mux\\b|\\b(?:bluray|blu[-_.]?ray)\\b|\\bweb[-_. ]?rip\\b)).*(?:\\b(?:web[-_. ]?dl|webdl)\\b|(?<![a-zA-Z0-9])web[-_. ](?:h\\.?26[45]|x26[45]|avc|hevc)(?![a-zA-Z0-9]))",
-      "tagColor": "#5C6B76",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#FFE55353",
-      "groupId": "quality-group",
-      "id": "q-wr",
-      "imageURL": "https://files.catbox.moe/2ogfyx.png",
-      "isEnabled": true,
-      "name": "WebRip",
-      "pattern": "(?i)^(?!.*(?:\\b(?:(?:bd|hd)[-_.]?)?remux\\b|\\bbd[-_.]?mux\\b|\\b(?:bluray|blu[-_.]?ray)\\b|\\b(?:web[-_. ]?dl|webdl)\\b)).*\\bweb[-_. ]?rip\\b",
-      "tagColor": "#5C6B76",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#2EFFFFFF",
-      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
-      "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_SEADEX.png",
-      "isEnabled": true,
-      "name": "SEADEX Release",
-      "pattern": "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
-      "tagColor": "#22000000",
-      "tagStyle": "filled and bordered",
-      "textColor": "#FFFFFF",
-      "type": "filter"
-    },
-    {
-      "borderColor": "#2EFFFFFF",
-      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
-      "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
-      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_imax.png",
-      "isEnabled": true,
-      "name": "IMAX",
-      "pattern": "(?i)\\bimax\\b",
-      "tagColor": "#22000000",
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
@@ -441,15 +415,35 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
+    },
+    {
+      "borderColor": "#2EFFFFFF",
+      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
+      "id": "5f758265-9c4c-5aa5-bd5f-547553cd993d",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_SEADEX.png",
+      "isEnabled": true,
+      "name": "SEADEX Release",
+      "pattern": "(?i)(?:\\bseadex\\b|ᴀʟᴛ\\s+ʀᴇʟᴇᴀsᴇ|ʙᴇsᴛ\\s+ʀᴇʟᴇᴀsᴇ|alt\\s+release|best\\s+release)",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#2EFFFFFF",
+      "groupId": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
+      "id": "a542b0b8-8bec-567a-ac42-50e87ec3e11b",
+      "imageURL": "https://raw.githubusercontent.com/nobnobz/Omni-Template-Bot-Bid-Raiser/main/Other/white%20regex%20tags/white_imax.png",
+      "isEnabled": true,
+      "name": "IMAX",
+      "pattern": "(?i)\\bimax\\b",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
     }
   ],
   "groups": [
-    {
-      "color": "#00000000",
-      "id": "gs",
-      "isExpanded": true,
-      "name": "Streamings"
-    },
     {
       "color": "#00000000",
       "id": "resolution-group",
@@ -461,6 +455,12 @@
       "id": "quality-group",
       "isExpanded": true,
       "name": "Qualities"
+    },
+    {
+      "color": "#00000000",
+      "id": "gs",
+      "isExpanded": true,
+      "name": "Streamings"
     },
     {
       "color": "#FF6B6B",
