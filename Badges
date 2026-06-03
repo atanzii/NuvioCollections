@@ -2,6 +2,32 @@
   "filters": [
     {
       "borderColor": "#FF1565C0",
+      "groupId": "resolution-group",
+      "id": "r-4k",
+      "imageURL": "https://files.catbox.moe/uya7bl.png",
+      "isEnabled": true,
+      "name": "4K",
+      "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF27C04F",
+      "groupId": "resolution-group",
+      "id": "r-1080",
+      "imageURL": "https://files.catbox.moe/qzp5t3.png",
+      "isEnabled": true,
+      "name": "1080p",
+      "pattern": "(?i)\\b1080[pi]?\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF1565C0",
       "groupId": "quality-group",
       "id": "q-r",
       "imageURL": "https://files.catbox.moe/yie3a3.png",
@@ -418,6 +444,12 @@
     }
   ],
   "groups": [
+    {
+      "color": "#00000000",
+      "id": "resolution-group",
+      "isExpanded": true,
+      "name": "Resolutions"
+    },
     {
       "color": "#5C6B76",
       "id": "quality-group",
