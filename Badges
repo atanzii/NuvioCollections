@@ -119,6 +119,32 @@
     },
     {
       "borderColor": "#FF1565C0",
+      "groupId": "resolution-group",
+      "id": "r-4k",
+      "imageURL": "https://files.catbox.moe/uya7bl.png",
+      "isEnabled": true,
+      "name": "4K",
+      "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:1080[pi]?|720[pi]?))",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF27C04F",
+      "groupId": "resolution-group",
+      "id": "r-1080",
+      "imageURL": "https://files.catbox.moe/qzp5t3.png",
+      "isEnabled": true,
+      "name": "1080p",
+      "pattern": "(?i)\\b1080[pi]?\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#FF1565C0",
       "groupId": "quality-group",
       "id": "q-r",
       "imageURL": "https://files.catbox.moe/yie3a3.png",
@@ -415,6 +441,45 @@
       "tagStyle": "filled and bordered",
       "textColor": "#FFFFFF",
       "type": "filter"
+    },
+    {
+      "borderColor": "#2EFFFFFF",
+      "groupId": "language-group",
+      "id": "l-it",
+      "imageURL": "https://files.catbox.moe/2k1nj1.png",
+      "isEnabled": true,
+      "name": "🇮🇹",
+      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(italian|ita)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#2EFFFFFF",
+      "groupId": "language-group",
+      "id": "l-en",
+      "imageURL": "https://files.catbox.moe/rc1k68.png",
+      "isEnabled": true,
+      "name": "🇬🇧",
+      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(english|eng)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#2EFFFFFF",
+      "groupId": "language-group",
+      "id": "l-mu",
+      "imageURL": "https://files.catbox.moe/8scrg7.png",
+      "isEnabled": true,
+      "name": "🌐",
+      "pattern": "(?i)(?<![^\\s\\[(_\\-.,])(multi)(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)|(?<![^\\s\\[(_\\-.,])(dual[ .\\-_]?(?:audio|lang(?:uage)?|flac|ac3|aac2?))(?![ .\\-_]?sub(title)?s?)(?=[\\s\\)\\]_.\\-,]|$)",
+      "tagColor": "#22000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
     }
   ],
   "groups": [
@@ -425,10 +490,16 @@
       "name": "Streamings"
     },
     {
+      "color": "#00000000",
+      "id": "resolution-group",
+      "isExpanded": true,
+      "name": "Resolutions"
+    },
+    {
       "color": "#5C6B76",
       "id": "quality-group",
       "isExpanded": true,
-      "name": "Quality"
+      "name": "Qualities"
     },
     {
       "color": "#FF6B6B",
@@ -440,7 +511,7 @@
       "color": "#45B7D1",
       "id": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f",
       "isExpanded": true,
-      "name": "Audio"
+      "name": "Audio Tags"
     },
     {
       "color": "#FFD700",
@@ -453,6 +524,12 @@
       "id": "3f2e1d0c-9b8a-4f7e-8d6c-5b4a39281716",
       "isExpanded": true,
       "name": "Special Tags"
+    },
+    {
+      "color": "#00000000",
+      "id": "language-group",
+      "isExpanded": true,
+      "name": "Languages"
     }
   ]
 }
