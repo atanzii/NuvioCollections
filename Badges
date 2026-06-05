@@ -17,7 +17,7 @@
       "borderColor": "#FF27C04F",
       "groupId": "resolution-group",
       "id": "r-1080",
-      "imageURL": "https://files.catbox.moe/4czdin.png",
+      "imageURL": "https://files.catbox.moe/62ps7h.png",
       "isEnabled": true,
       "name": "1080p",
       "pattern": "(?i)\\b1080[pi]?\\b",
