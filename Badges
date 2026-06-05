@@ -92,7 +92,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFFF9728",
+      "borderColor": "#FFE55353",
       "groupId": "quality-group",
       "id": "q-dvd",
       "imageURL": "https://files.catbox.moe/8fjgut.png",
