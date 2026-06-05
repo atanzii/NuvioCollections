@@ -92,6 +92,19 @@
       "type": "filter"
     },
     {
+      "borderColor": "#FFFF9728",
+      "groupId": "quality-group",
+      "id": "q-dvd",
+      "imageURL": "https://files.catbox.moe/8fjgut.png",
+      "isEnabled": true,
+      "name": "DVD",
+      "pattern": "(?i)\\b(?:dvd(?:rip|scr|r[0-9])?|dvdrip|divx|xvid)\\b",
+      "tagColor": "#5C6B76",
+      "tagStyle": "filled and bordered",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
       "borderColor": "#FFE50914",
       "groupId": "gs",
       "id": "s-nflx",
