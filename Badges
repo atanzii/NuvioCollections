@@ -105,7 +105,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFE50914",
+      "borderColor": "#E50914",
       "groupId": "gs",
       "id": "s-nflx",
       "imageURL": "https://files.catbox.moe/gzzowp.png",
@@ -118,7 +118,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF00A8E1",
+      "borderColor": "#00A8E1",
       "groupId": "gs",
       "id": "s-amzn",
       "imageURL": "https://files.catbox.moe/jvuuxz.png",
@@ -131,7 +131,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#7D7D7D",
+      "borderColor": "#F5F5F7",
       "groupId": "gs",
       "id": "s-atvp",
       "imageURL": "https://files.catbox.moe/8mvbkd.png",
@@ -144,7 +144,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF00C7DC",
+      "borderColor": "#00B4C5",
       "groupId": "gs",
       "id": "s-dsnp",
       "imageURL": "https://files.catbox.moe/xufikr.png",
@@ -157,12 +157,12 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFB100FF",
+      "borderColor": "#A020A0",
       "groupId": "gs",
       "id": "s-hmax",
       "imageURL": "https://files.catbox.moe/60vwdv.png",
       "isEnabled": true,
-      "name": "MAX",
+      "name": "HBOMAX",
       "pattern": "(?i)(?:⁠⁥|\\b(?:hmax|hbomax|hbo\\s*max)\\b)",
       "tagColor": "#00000000",
       "tagStyle": "filled and bordered",
@@ -170,7 +170,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF1CE783",
+      "borderColor": "#1CE783",
       "groupId": "gs",
       "id": "s-hulu",
       "imageURL": "https://files.catbox.moe/62bb6u.png",
@@ -183,7 +183,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFFFB81C",
+      "borderColor": "#F2A800",
       "groupId": "gs",
       "id": "s-pcok",
       "imageURL": "https://files.catbox.moe/qoxb5p.png",
@@ -196,7 +196,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF0050D0",
+      "borderColor": "#2864F0",
       "groupId": "gs",
       "id": "s-pamp",
       "imageURL": "https://files.catbox.moe/92xcdu.png",
@@ -209,7 +209,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFF47521",
+      "borderColor": "#FF6600",
       "groupId": "gs",
       "id": "s-croll",
       "imageURL": "https://files.catbox.moe/2wo44w.png",
