@@ -79,7 +79,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF3D3D",
+      "borderColor": "#FF5252",
       "groupId": "quality-group",
       "id": "q-wr",
       "imageURL": "https://files.catbox.moe/2ogfyx.png",
@@ -92,7 +92,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF3D3D",
+      "borderColor": "#FF5252",
       "groupId": "quality-group",
       "id": "q-dvd",
       "imageURL": "https://files.catbox.moe/uynw7f.png",
