@@ -1,7 +1,7 @@
 {
   "filters": [
     {
-      "borderColor": "#FFD700",
+      "borderColor": "#0057FF",
       "groupId": "resolution-group",
       "id": "r-4k",
       "imageURL": "https://files.catbox.moe/50h22v.png",
@@ -14,7 +14,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00B4FF",
+      "borderColor": "#00E676",
       "groupId": "resolution-group",
       "id": "r-1080",
       "imageURL": "https://files.catbox.moe/5lm4wr.png",
@@ -27,7 +27,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00E676",
+      "borderColor": "#FF9100",
       "groupId": "resolution-group",
       "id": "r-720",
       "imageURL": "https://files.catbox.moe/k6zdhd.png",
@@ -40,7 +40,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FFD700",
+      "borderColor": "#0057FF",
       "groupId": "quality-group",
       "id": "q-r",
       "imageURL": "https://files.catbox.moe/yie3a3.png",
@@ -53,7 +53,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00B4FF",
+      "borderColor": "#00E676",
       "groupId": "quality-group",
       "id": "q-b",
       "imageURL": "https://files.catbox.moe/0pw37g.png",
@@ -66,7 +66,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#00E676",
+      "borderColor": "#FF9100",
       "groupId": "quality-group",
       "id": "q-w",
       "imageURL": "https://files.catbox.moe/nvccpa.png",
@@ -79,7 +79,7 @@
       "type": "filter"
     },
     {
-      "borderColor": "#FF9100",
+      "borderColor": "#FF3D3D",
       "groupId": "quality-group",
       "id": "q-wr",
       "imageURL": "https://files.catbox.moe/2ogfyx.png",
